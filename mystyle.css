@@ -8,6 +8,11 @@ body {
 
 
 image {
-  border: 100px;
+  width:400px;
+	height:400px;
+	padding:10px;
+	border-radius:50px;
+	border: 5px solid #007A7A;
+	background-color: #FFCC00;
 }
   
