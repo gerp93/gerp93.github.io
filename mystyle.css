@@ -2,6 +2,10 @@ h1 {
   color: blue;
 }
 
+body {
+  color: teal;
+}
+
 
 image {
   border: 100px;
