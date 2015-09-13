@@ -33,7 +33,7 @@ header {
 	margin-right: auto;
 }
 
-img {
+img.main {
   width:400px;
 	height:400px;
 	padding:10px;
