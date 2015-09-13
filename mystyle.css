@@ -46,11 +46,13 @@ body {
 h1 {
 	text-align: center;
 	color: #CCA300;
+	font: Arial;
 }
 
 
 h5 {
 	text-align: center;
+	font: Arial;
 }
 
 
@@ -78,6 +80,10 @@ img.main {
 	background-color: #CCA300 ;
 	
 }
+
+
+p{ 
+	font: "Arial";
 
 
 section {
