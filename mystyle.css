@@ -1,3 +1,23 @@
+a:link {
+	color: #CCA300;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #CCA300;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CCA300;
+	text-decoration: none;
+}
+
+a:active {
+	color: #CCA300;
+	text-decoration: none;
+}
+
 body {
   background-color: #3366FF;
 }
@@ -35,6 +55,4 @@ section {
 	
 }
 
-a:link {
-	color: #CCA300;
-}
+
