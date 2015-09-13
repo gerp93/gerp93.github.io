@@ -1,19 +1,40 @@
 a:link {
-	color: #3366FF;
+	color: #CCA300;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #3366FF;
+	color: #CCA300;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #3366FF;
+	color: #CCA300;
 	text-decoration: none;
 }
 
 a:active {
+	color: #CCA300;
+	text-decoration: none;
+}
+
+
+a.nav:link {
+	color: #3366FF;
+	text-decoration: none;
+}
+
+a.nav:visited {
+	color: #3366FF;
+	text-decoration: none;
+}
+
+a.nav:hover {
+	color: #3366FF;
+	text-decoration: none;
+}
+
+a.nav:active {
 	color: #3366FF;
 	text-decoration: none;
 }
