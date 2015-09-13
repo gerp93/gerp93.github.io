@@ -15,4 +15,10 @@ img {
 	border: 5px solid #007A7A;
 	background-color: #FFCC00;
 }
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
   
