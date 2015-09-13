@@ -1,11 +1,17 @@
-h1 {
-  color: blue;
-}
-
 body {
-  background-color: green;
+  background-color: #3366FF;
 }
 
+h1 {
+	text-align: center;
+	color: #CCA300;
+}
+
+
+header {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 img {
   width:400px;
@@ -18,22 +24,7 @@ img {
 	margin-right: auto;
 }
 
-
-body {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-header {
-	margin-left: auto;
-	margin-right: auto;
-}
-  
  nav {
 	margin-left: auto;
 	margin-right: auto;
-}
-  
-h1 {
-	text-align: center;
 }
