@@ -18,8 +18,7 @@ img {
 	height:400px;
 	padding:10px;
 	border-radius:50px;
-	border: 5px solid #007A7A;
-	background-color: #FFCC00;
+	border: 5px solid #CCA300;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -34,4 +33,8 @@ section {
 	margin-left: auto;
 	margin-right: auto;
 	
+}
+
+a:link {
+	color: #CCA300;
 }
