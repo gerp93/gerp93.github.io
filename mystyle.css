@@ -74,9 +74,7 @@ img.main {
 	
 }
 
-li.nav {
-	text-align: center;	
-}
+
 
  nav {
 	margin-left: auto;
@@ -104,6 +102,10 @@ table {
 	margin-right: auto;
 	display: block;
 
+}
+
+td.nav {
+	text-align: center;	
 }
 
 
