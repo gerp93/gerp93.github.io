@@ -1,1 +1,18 @@
-t
+.done {
+  text-decoration: line-through ;
+}
+
+
+.high {
+  color: red;
+}
+
+
+.med {
+  color: orange;
+}
+
+
+.low {
+  color: grey;
+}
