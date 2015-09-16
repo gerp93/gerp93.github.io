@@ -1,20 +1,20 @@
 
-section.high h2, li{
+section.high {
   color: white;
   background-color: red;
 }
 
-section.med h2, li{
+section.med {
   color: white;
   background-color: orange;
 }
 
-section.low  h2, li{
+section.low {
   color: black;
   background-color: grey;
 }
 
-section.done h2, li{
+section.done {
   color: cyan;
   background-color: black;
 }
