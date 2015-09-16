@@ -1,20 +1,20 @@
 
-section.high {
+.high {
   color: white;
   background-color: red;
 }
 
-section.med {
+.med {
   color: white;
   background-color: orange;
 }
 
-section.low {
+.low {
   color: black;
   background-color: grey;
 }
 
-section.done {
+.done {
   color: cyan;
   background-color: black;
 }
