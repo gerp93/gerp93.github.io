@@ -101,6 +101,10 @@ section {
 	
 }
 
+table {
+	margin: auto;
+}
+
 
 td.nav {
 	text-align: center;	
