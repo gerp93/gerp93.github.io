@@ -1,1 +1,19 @@
 
+section.high h2 li{
+  color: white;
+  
+}
+
+section.high body{
+  background-color: red;
+}
+  
+section.med h2 li{
+  color: white;
+}
+
+section.high body{
+  background-color: orange;
+}
+
+
