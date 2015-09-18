@@ -39,4 +39,8 @@ section {
   overflow: auto;
 }
 
+section.medium {
+  display: none;
+}
+
 
