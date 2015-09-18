@@ -17,7 +17,15 @@
 .done {
   color: cyan;
   background-color: black;
+}
+
+.done li {
   text-decoration: line-through;
+}
+
+
+section {
+  border: 5px;
 }
 
 
