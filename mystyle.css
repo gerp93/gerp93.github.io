@@ -92,11 +92,16 @@ img.main {
 p{ 
 	font-family: "Arial";
 
-section {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	
+section#left {
+	width: 50%;
+	float: left;
+	margin:200px;
+}
+
+section#right {
+	width: 50%;
+	float: left;
+	margin: 200px;
 }
 
 
