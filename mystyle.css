@@ -1,20 +1,20 @@
 a:link {
-	color: #CCA300;
+	color: yellow;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #CCA300;
+	color: green;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #CCA300;
+	color: orange;
 	text-decoration: none;
 }
 
 a:active {
-	color: #CCA300;
+	color: red;
 	text-decoration: none;
 }
 
@@ -62,10 +62,6 @@ h5 {
 	font-family: "Arial";
 }
 
-
-
-
-
 img#main {
 	position: relative;
   	width:300px;
@@ -77,12 +73,7 @@ img#main {
 	margin-right: auto;
 	margin-bottom: auto;
 	display: block;
-	
-	
 }
-
-
-
 
  nav {
 	margin-left: auto;
@@ -91,15 +82,11 @@ img#main {
 	background-color: #CCA300;
 	display: block;
 	text-align: center;
-	
-	
 }
-
 
 p{ 
 	font-family: "Arial"
 	padding: 20px;
-	
 }
 	
 #left {
