@@ -39,6 +39,13 @@ a.nav:active {
 	text-decoration: none;
 }
 
+
+#copyright {
+	font-size: 10pt;
+	font-style: italic;
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 	color: #CCA300;
