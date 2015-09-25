@@ -91,7 +91,7 @@ img#main {
   	width:300px;
 	height:300px;
 	border-radius:10px;
-	border: 5px solid yellow;
+	border: 5px solid white;
 	margin-top: 50px;
 	margin-left: auto;
 	margin-right: auto;
@@ -112,6 +112,7 @@ img#main {
 p{ 
 	font-family: "Arial"
 	padding: 20px;
+	color: white;
 }
 	
 #left {
