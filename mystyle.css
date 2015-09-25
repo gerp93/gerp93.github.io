@@ -38,22 +38,27 @@ a:active {
 
 
 a.nav:link {
-	color: yellow;
+	
+	text-size: 16pt; 
+	color: rgb(1, 15, 40);
 	text-decoration: none;
 }
 
 a.nav:visited {
-	color: red;
+	text-size: 16pt; 
+	color: rgb(1, 15, 40);
 	text-decoration: none;
 }
 
 a.nav:hover {
-	color: orange;
+	text-size: 16pt; 
+	color: white;
 	text-decoration: none;
 }
 
 a.nav:active {
-	color: #339966;
+	text-size: 16pt; 
+	color: white;
 	text-decoration: none;
 }
 
