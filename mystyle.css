@@ -39,10 +39,6 @@ a.nav:active {
 	text-decoration: none;
 }
 
-body {
-  background-color: #3366FF;
-}
-
 h1 {
 	text-align: center;
 	color: #CCA300;
@@ -88,18 +84,22 @@ img.main {
 
 
 p{ 
-	font-family: "Arial";
-
-section#left {
+	font-family: "Arial"
+	
+}
+	
+#left {
 	width: 50%;
 	float: left;
 	margin:200px;
+	background-color: green;
 }
 
-section#right {
+#right {
 	width: 50%;
 	float: left;
 	margin: 200px;
+	background-color: red;
 }
 
 
