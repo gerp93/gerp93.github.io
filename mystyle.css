@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, p, li {
 }
 
 a:link {
-	color: yellow;
+	color: rgb(1, 15, 40);
 	text-decoration: none;
 }
 
