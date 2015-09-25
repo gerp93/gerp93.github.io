@@ -122,7 +122,8 @@ img#main {
 	float: left;
 	width: 100%;
 	position: fixed;
-	margin-top: 100px;
+	margin-top: 20px;
+	padding-top: 50px;
 	background-color: white;
 }
 
