@@ -91,14 +91,13 @@ p{
 #left {
 	width: 50%;
 	float: left;
-	margin:200px;
+	margin-top:200px;
 	background-color: green;
 }
 
 #right {
 	width: 50%;
-	float: left;
-	margin: 200px;
+	margin-top: 200px;
 	background-color: red;
 }
 
