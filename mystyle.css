@@ -103,6 +103,7 @@ img#main {
 	text-align: center;
 	float: left;
 	width: 100%;
+	position: fixed;
 }
 
 p{ 
