@@ -20,22 +20,22 @@ a:active {
 
 
 a.nav:link {
-	color: #3366FF;
+	color: yellow;
 	text-decoration: none;
 }
 
 a.nav:visited {
-	color: #3366FF;
+	color: red;
 	text-decoration: none;
 }
 
 a.nav:hover {
-	color: #3366FF;
+	color: orange;
 	text-decoration: none;
 }
 
 a.nav:active {
-	color: #3366FF;
+	color: green;
 	text-decoration: none;
 }
 
