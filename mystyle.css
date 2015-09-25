@@ -91,7 +91,7 @@ p{
 #left {
 	width: 50%;
 	float: left;
-	margin-top:50px;
+	margin-top: auto;
 	background-color: green;
 	height: 500px;
 }
@@ -99,7 +99,7 @@ p{
 #right {
 	width: 50%;
 	float: left;
-	margin-top: 50px;
+	margin-top: auto;
 	background-color: red;
 	height: 500px;
 }
