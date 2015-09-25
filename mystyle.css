@@ -35,7 +35,7 @@ a.nav:hover {
 }
 
 a.nav:active {
-	color: green;
+	color: #339966;
 	text-decoration: none;
 }
 
@@ -93,7 +93,7 @@ p{
 	width: 50%;
 	float: left;
 	margin-top: auto;
-	background-color: green;
+	background-color: #339966;
 	height: 500px;
 }
 
@@ -101,7 +101,7 @@ p{
 	width: 50%;
 	float: left;
 	margin-top: auto;
-	background-color: red;
+	background-color: #339966;
 	height: 500px;
 }
 
