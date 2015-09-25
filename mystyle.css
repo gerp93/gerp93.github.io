@@ -10,7 +10,10 @@ h1, h2, h3, h4, h5, p, li {
 }
 
 a:link {
-	color: rgb(1, 15, 40);
+	color: white
+	-webkit-text-fill-color: rgb(1, 15, 40);
+	-webkit-text-fill-width: 2px;
+	-webkit-text-stroke-color: white;
 	text-decoration: none;
 }
 
