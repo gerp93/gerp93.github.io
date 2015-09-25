@@ -40,26 +40,21 @@ a:active {
 
 
 a.nav:link {
-	
-	text-size: 16pt; 
 	color: rgb(1, 15, 40);
 	text-decoration: none;
 }
 
 a.nav:visited {
-	text-size: 16pt; 
 	color: rgb(1, 15, 40);
 	text-decoration: none;
 }
 
 a.nav:hover {
-	text-size: 16pt; 
 	color: white;
 	text-decoration: none;
 }
 
 a.nav:active {
-	text-size: 16pt; 
 	color: white;
 	text-decoration: none;
 }
