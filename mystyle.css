@@ -105,7 +105,12 @@ header {
 	width: 100%;
 }
 
-img.gallery{
+img.gallerywide{
+	width: 800px;
+	height: 400px;
+}
+
+img.gallerynormal{
 	width: 400px;
 	height: 400px;
 }
