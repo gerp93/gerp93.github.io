@@ -138,7 +138,7 @@ img#main {
 	float: left;
 	width: 100%;
 	position: fixed;
-	margin-top: 20px;
+	top: 0px;
 	background-color: white;
 }
 
