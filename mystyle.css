@@ -69,14 +69,15 @@ body{
 	
 }
 
-#copyright {
+.copyright {
 	font-size: 10pt;
 	font-style: italic;
 	text-align: center;
+	padding: 100px;
 }
 
 footer {
-	margin: 0px, 0px, 0px, 0px;
+	
 }
 
 h1 {
