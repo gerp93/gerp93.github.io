@@ -74,9 +74,12 @@ body{
 	font-style: italic;
 	text-align: center;
 	padding-top: 300px;
+	
 }
 
 footer {
+	position: fixed;
+	opacity: .5;
 	
 }
 
