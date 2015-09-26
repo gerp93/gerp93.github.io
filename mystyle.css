@@ -56,6 +56,11 @@ a.nav:active {
 	text-decoration: none;
 }
 
+
+article {
+	margin-right: 50px;
+}
+
 body{
 	background-image: url("http://img06.deviantart.net/dd28/i/2008/014/d/c/background_for_ppt__by_sirdelirium.jpg");
 	background-repeat: repeat-y;
