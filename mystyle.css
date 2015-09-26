@@ -80,6 +80,7 @@ body{
 footer {
 	position: fixed;
 	opacity: .5;
+	clear: both;
 	
 }
 
