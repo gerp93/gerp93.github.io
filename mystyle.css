@@ -78,10 +78,8 @@ body{
 }
 
 footer {
-	position: fixed;
 	opacity: .5;
-	clear: both;
-	
+	float: 100%;
 }
 
 h1 {
@@ -103,6 +101,10 @@ header {
 	margin-top: 50px;
 	float: left;
 	width: 100%;
+}
+
+td.wide {
+	c
 }
 
 img.gallerywide{
