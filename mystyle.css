@@ -105,6 +105,11 @@ header {
 	width: 100%;
 }
 
+img.gallery{
+	width: 400px;
+	height: 400px;
+}
+
 img#main {
 	position: relative;
   	width:300px;
@@ -117,6 +122,8 @@ img#main {
 	margin-bottom: auto;
 	display: block;
 }
+
+
 
  nav {
 	display: block;
