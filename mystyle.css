@@ -103,9 +103,11 @@ header {
 	width: 100%;
 }
 
-td.wide {
-	c
+img.contact{
+	width:75px;
+	height:75px;
 }
+
 
 img.gallerywide{
 	width: 800px;
@@ -165,7 +167,6 @@ section.right {
 	margin-top: auto;
 	height: 500px;
 }
-
 
 table.nav {
 	width: 100%;
