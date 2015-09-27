@@ -95,7 +95,7 @@ h2 {
 	padding: 10px;
 }
 
-h3:hover~article.hidden{
+h3:hover~article{
 	display: block;
 	
 }
