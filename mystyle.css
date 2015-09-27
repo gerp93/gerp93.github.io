@@ -158,14 +158,14 @@ section.left {
 	width: 50%;
 	float: left;
 	margin-top: auto;
-	height: 500px;
+	height: auto;
 }
 
 section.right {
 	width: 50%;
 	float: left;
 	margin-top: auto;
-	height: 500px;
+	height: auto;
 }
 
 table.nav {
