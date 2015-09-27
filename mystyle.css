@@ -152,14 +152,14 @@ p{
 	line-height: 200%;
 }
 	
-#left {
+section.left {
 	width: 50%;
 	float: left;
 	margin-top: auto;
 	height: 500px;
 }
 
-#right {
+section.right {
 	width: 50%;
 	float: left;
 	margin-top: auto;
