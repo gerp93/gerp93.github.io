@@ -26,7 +26,7 @@ a:visited {
 a:hover {
 	color: white;
 	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:active {
@@ -61,9 +61,11 @@ article {
 	margin-right: 50px;
 }
 
-article.hidden{
-	display: none;
+article.left{
+	padding-right: 100px;
 }
+
+
 
 body{
 	background-image: url("http://img06.deviantart.net/dd28/i/2008/014/d/c/background_for_ppt__by_sirdelirium.jpg");
@@ -83,20 +85,20 @@ body{
 
 footer {
 	opacity: .5;
-	float: 100%;
+	clear: both;
 }
 
 h1 {
 	text-align: center;
-	font-family: "Arial";
 }
 
 h2 {
 	padding: 10px;
 }
 
-h3:hover~article{
-	display: block;
+h3{
+	padding: 10px;
+
 	
 }
 
@@ -106,9 +108,10 @@ h5 {
 }
 
 header {
-	margin-top: 50px;
-	float: left;
+	margin-top: 0px;
 	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 img.contact{
@@ -140,19 +143,29 @@ img#main {
 	display: block;
 }
 
+img.left{
+	position: relative;
+	height: 400px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	display: block;
+	
+}
+
 
 
  nav {
-	display: block;
-	text-align: center;
-	float: left;
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	background-color: white;
-	border-style: solid; 
-	border-width: 1px; 
-	border-color: rgb(158, 164, 184);
+	 width: 100%;
+	 background-color: white;
+	 border-style: solid;
+	 border-width: 1px;
+	 border-color: rgb(158, 164, 184);
+	 position: fixed;
+	 margin-top: 0px;
+	 
 }
 
 p{ 
@@ -167,6 +180,7 @@ section.left {
 	float: left;
 	margin-top: auto;
 	height: 500px;
+	display: block;
 }
 
 section.right {
@@ -174,7 +188,31 @@ section.right {
 	float: left;
 	margin-top: auto;
 	height: 500px;
+	display: block;
 }
+
+
+
+table#contact{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+}
+	
+table#contact td, tr{
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+		
+}
+	
+	
+
 
 table.nav {
 	width: 100%;
