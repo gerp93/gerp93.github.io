@@ -1,4 +1,11 @@
 <html>
+  <script type="text/javascript">
+    done = function() {
+      var cli;
+      cli=document.querySelector('li');
+      cli.style.class="done";
+    }
+
   <head>
     <title>Kaleb's To Do List</title>
     <link rel="stylesheet" type="text/css" href="todostyle3.css">
@@ -10,7 +17,7 @@
     <section class=high>
       <h2>High</h2>
         <ul>
-          <li><input type="checkbox">Go to Store"></li>
+          <li><input type="checkbox" onchange="done">Go to Store"></li>
           <li><input type="checkbox">Do CS Homework</li>
         </ul>
       </section>
