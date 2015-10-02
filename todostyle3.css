@@ -1,1 +1,44 @@
 
+ul {
+  list-style-type: none;
+}
+
+.high {
+  color: white;
+  background-color: red;
+  height: 200px;
+  width: 300px;
+}
+
+.med {
+  color: white;
+  background-color: orange;
+  height: 200px;
+  width: 300px;
+}
+
+.low {
+  color: black;
+  background-color: grey;
+  height: 200px;
+  width: 300px;
+}
+
+.done {
+  color: cyan;
+  background-color: black;
+  height: 200px;
+  width: 300px;
+}
+
+.done li {
+  text-decoration: line-through;
+  height: 200px;
+  width: 300px;
+}
+
+
+input {
+  type: radio; 
+  
+}
