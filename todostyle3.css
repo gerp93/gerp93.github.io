@@ -38,7 +38,15 @@ ul {
 }
 
 
-input {
-  type: radio; 
+section {
+  overflow: auto;
+  float: left;
+  width: 300px;
+  height: 200px;
   
 }
+
+footer {
+  clear: both;
+}
+
