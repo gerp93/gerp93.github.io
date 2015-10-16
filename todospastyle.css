@@ -7,6 +7,14 @@ section#tasks {
 	width: 80%;
 }
 
+section#entry {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 80%;
+	
+}
+
 .floater {
 	margin-right: auto;
 	margin-left: auto;
