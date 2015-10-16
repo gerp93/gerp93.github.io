@@ -1,6 +1,7 @@
 
 
 section#tasks {
+	background-color: blue;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -8,6 +9,7 @@ section#tasks {
 }
 
 section#entry {
+	background-color: blue;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
