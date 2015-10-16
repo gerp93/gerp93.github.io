@@ -1,4 +1,9 @@
 
+body {
+	background-color: orange;
+}
+
+
 
 section#tasks {
 	background-color: blue;
