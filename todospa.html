@@ -21,8 +21,7 @@
   			var tn=createTextNode(text);
   			alert(tn);
   			var li=document.createElement("li");
-  			alert(li);
-  			li.appendChild(tn);
+  			li.innerHTML=tn; 
   			var list=document.querySelector("#list");
   			alert("hi");
   			list.appendChild(li)
