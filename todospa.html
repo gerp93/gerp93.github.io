@@ -12,11 +12,19 @@
 	<script type="text/javascript">
 		function add() {
   			var task=document.getElementById("newtask");
-  			var priority=document.getElementById("newpriority");
+  			
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
-  			item.appendChild(tn); 
-  			var list=document.getElementById("list");
+  			item.appendChild(tn);
+  			
+  			var priority=document.getElementById("newpriority");
+  			if (priority.value="High") {
+  				var list=document.getElementById("high")
+  			} else if (priority.value="Medium") {
+  				var list=document.getElementById("medium")
+  			} else (priority.value="High") {
+  				var list=document.getElementById("high")
+  			}
   			list.appendChild(item);
 		}	
 		
@@ -27,15 +35,15 @@
 <section id=tasks>
 	
 	<section id=high>
-		<ol id=list>
+		<ol id=high>
 	</section>
 	
 	<section id=medium>
-		<ol id=list>
+		<ol id=medium>
 	</section>
 	
 	<section class=low>
-		<ol id=list>
+		<ol id=low>
 	</section>
 	
 </section>
