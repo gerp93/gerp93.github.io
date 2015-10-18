@@ -11,19 +11,24 @@
 	
 	<script type="text/javascript">
 		function add() {
-			alert("hi"); 
   			var task=document.getElementById("newtask");
   			
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
-  			item.appendChild(tn);
+  			item.innerHTML=<checkbox> item;
   			
   			var priority=document.getElementById("newpriority");
   			if (priority.value="High") {
   				var list=document.getElementById("high");
   			} 
   			
-  	
+  			else if (priority.value="Medium")
+  				var list=document.getElementById("medium");
+  			
+  			else {
+  				var list=document.getElementById("low");
+  			}
+ 
   			list.appendChild(item);
 		}	
 		
