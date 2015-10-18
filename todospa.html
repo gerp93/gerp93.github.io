@@ -11,20 +11,13 @@
 	
 	<script type="text/javascript">
 		function add() {
-  			alert("hi");
   			var task=document.getElementById("newtask");
-  			alert(task);
   			var priority=document.getElementById("newpriority");
-  			alert(priority);
   			var tn=document.createTextNode(task.value);
-  			alert(tn);
   			var item=document.createElement("li");
   			item.appendChild(tn); 
   			var list=document.getElementById("list");
-  			alert("hi");
-  			list.appendChild(item)
-  			alert("hi");
-
+  			list.appendChild(item);
 		}	
 		
 	</script>
