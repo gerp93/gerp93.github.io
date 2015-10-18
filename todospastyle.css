@@ -48,5 +48,10 @@ section#entry {
 	margin-left: auto;
 	display: block;
 }
+
+
+ol {
+	list-style-type: none;
+}
 	
 
