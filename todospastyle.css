@@ -54,7 +54,7 @@ section#low {
 }
 
 
-input~ {
+input:checked ~ li {
 	text-decoration: line-through;
 }
 
