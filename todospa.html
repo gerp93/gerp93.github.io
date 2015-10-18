@@ -3,7 +3,7 @@
 <head>
 	
 	<link rel="stylesheet" type="text/css" href="todospastyle.css">
-	<script src="todospascript.js"></script>
+
 
 </head>
 
@@ -16,7 +16,8 @@
   			alert(task);
   			var priority=document.getElementById("#newpriority");
   			alert(priority);
-  			var tn=createTextNode(task.value)
+  			var text=task.value
+  			var tn=createTextNode(text)
   			alert(tn);
   			var li=document.createElement("li")
   			alert(li);
