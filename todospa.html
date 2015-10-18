@@ -23,15 +23,16 @@
   			item.appendChild(tn);
   			
   			var priority=document.getElementById("newpriority");
+  			
   			if (priority.value="High") {
-  				var list=document.getElementById("high");
+  				var list=document.getElementById("highp");
   			} 
   			
   			else if (priority.value="Medium")
-  				var list=document.getElementById("medium");
+  				var list=document.getElementById("mediump");
   			
   			else {
-  				var list=document.getElementById("low");
+  				var list=document.getElementById("lowp");
   			}
  
   			list.appendChild(item);
@@ -44,15 +45,15 @@
 <section id=tasks>
 	
 	<section id=high>
-		<ol id=high>
+		<ol id=highp>
 	</section>
 	
 	<section id=medium>
-		<ol id=medium>
+		<ol id=mediump>
 	</section>
 	
-	<section class=low>
-		<ol id=low>
+	<section id=low>
+		<ol id=lowp>
 	</section>
 	
 </section>
