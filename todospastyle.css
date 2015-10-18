@@ -29,6 +29,7 @@ section#tasks {
 	display: block;
 	width: 80%;
 	height: 25%;
+	overflow: scroll;
 }
 
 section#entry {
