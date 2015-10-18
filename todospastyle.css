@@ -4,6 +4,10 @@ input, button, select, p {
 	padding: 0px;
 }
 
+p {
+	color: white;
+}
+
 
 
 h1 {
@@ -22,6 +26,7 @@ section#tasks {
 	margin-left: auto;
 	display: block;
 	width: 80%;
+	height: 25%;
 }
 
 section#entry {
