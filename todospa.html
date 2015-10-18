@@ -13,14 +13,14 @@
 		function add() {
   			var task=document.getElementById("newtask");
   			
-  			var box=document.createElement("input")
-  			box.setAttribute("type", "checkbox")
+  			var box=document.createElement("input");
+  			box.setAttribute("type", "checkbox");
   			
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
   			
-  			item.appendChild(box)
-  			item.appendChild(tn)
+  			item.appendChild(box);
+  			item.appendChild(tn);
   			
   			var priority=document.getElementById("newpriority");
   			if (priority.value="High") {
