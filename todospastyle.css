@@ -1,6 +1,6 @@
 
 input, button, select, p {
-	margin: .5%%;
+	margin: .5%;
 	padding: 0%;
 }
 
@@ -22,6 +22,7 @@ body {
 
 section#tasks {
 	background-color: blue;
+	padding: 1%;
 	margin-bottom: 1%;
 	margin-right: auto;
 	margin-left: auto;
@@ -32,6 +33,7 @@ section#tasks {
 
 section#entry {
 	background-color: blue;
+	padding: 1%;
 	margin-bottom: 1%;
 	margin-right: auto;
 	margin-left: auto;
