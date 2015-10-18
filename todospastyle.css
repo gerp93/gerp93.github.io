@@ -15,13 +15,13 @@ h1 {
 }
 
 body {
-	background-color: orange;
+	background-color: grey;
 }
 
 
 
 section#tasks {
-	background-color: blue;
+	background-color: #336699;
 	padding: 1%;
 	margin-bottom: 1%;
 	margin-right: auto;
@@ -32,7 +32,7 @@ section#tasks {
 }
 
 section#entry {
-	background-color: blue;
+	background-color: #336699;
 	padding: 1%;
 	margin-bottom: 1%;
 	margin-right: auto;
