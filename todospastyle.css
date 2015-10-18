@@ -53,5 +53,16 @@ section#entry {
 ol {
 	list-style-type: none;
 }
+
+section#high {
+	color: red;
+}
+
+section#medium {
+	color: yellow;
+}
 	
+section#low {
+	color: white;
+}
 
