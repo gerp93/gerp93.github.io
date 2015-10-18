@@ -20,11 +20,11 @@
   			alert(text);
   			var tn=createTextNode(text);
   			alert(tn);
-  			var li=document.createElement("li");
-  			li.innerHTML=tn; 
-  			var list=document.querySelector("#list");
+  			var item=document.createElement("li");
+  			item.appendChild(tn); 
+  			var list=document.getElementById("list");
   			alert("hi");
-  			list.appendChild(li)
+  			list.appendChild(item)
   			alert("hi");
 
 		}	
