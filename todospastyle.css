@@ -1,7 +1,7 @@
 
 input, button, select, p {
 	margin: 0%;
-	padding: 5%;
+	padding: .5%;
 }
 
 p {
@@ -22,7 +22,7 @@ body {
 
 section#tasks {
 	background-color: blue;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
@@ -32,7 +32,7 @@ section#tasks {
 
 section#entry {
 	background-color: blue;
-	margin-bottom: 5%;
+	margin-bottom: 1%;
 	margin-right: auto;
 	margin-left: auto;
 	display: block;
