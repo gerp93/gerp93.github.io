@@ -15,6 +15,7 @@
   			
   			var box=document.createElement("input");
   			box.setAttribute("type", "checkbox");
+  			box.setAttribute("onClick", "strike();")
   			
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
@@ -36,7 +37,12 @@
   			}
  
   			list.appendChild(item);
-		}	
+		}
+		
+		
+		function strike() {
+			alert("hi");
+		}
 		
 	</script>
 	<header>
