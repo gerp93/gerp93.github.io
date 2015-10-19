@@ -20,7 +20,7 @@
   			
   			var box=document.createElement("input");
   			box.setAttribute("type", "checkbox");
-  			box.setAttribute("onClick", "strike();")
+  			box.setAttribute("onClick", "strike(this);")
   			
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
@@ -56,12 +56,13 @@
 			
 		}
 		
-		strike = function() {
-			
-			var text=getElementById()
-			var item=getElementById
+		strike = function(self) {
+		
 			alert("hi");
 			
+			var item=self.parentNode; 
+			item.class="done"
+	
 		}
 		
 	</script>
@@ -81,6 +82,8 @@
 	<section id=low>
 		<ol id=lowp>
 	</section>
+	
+
 	
 </section>
 
