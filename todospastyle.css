@@ -54,7 +54,14 @@ section#low {
 }
 
 
+section#done {
+	text-decoration: line-through;
+	color: grey;
+}
+
 input:checked ~ li {
 	text-decoration: line-through;
 }
+
+
 
