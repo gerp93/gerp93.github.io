@@ -54,7 +54,7 @@ section#low {
 }
 
 
-section#done {
+ol.done {
 	text-decoration: line-through;
 	color: grey;
 }
