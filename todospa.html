@@ -10,6 +10,11 @@
 <body>
 	
 	<script type="text/javascript">
+		
+	
+	
+	
+	
 		add=function() {
   			var task=document.getElementById("newtask");
   			
@@ -26,7 +31,16 @@
   			
   			var priority=document.getElementById("newpriority").value;
   			
-  			if (priority=="High") {
+			list=choosepri(priortiy);
+ 
+  			list.appendChild(item);
+  			
+  			alltasks.push(item);
+		}
+		
+		
+		choosepri = function(priority) {
+			if (priority=="High") {
   				var list=document.querySelector("#highp");
   			} 
   			
@@ -37,12 +51,12 @@
   			else {
   				var list=document.querySelector("#lowp");
   			}
- 
-  			list.appendChild(item);
+  			
+  			return list;
+			
 		}
 		
-		
-		function strike() {
+		strike = function() {
 			
 			var text=getElementById()
 			var item=getElementById
