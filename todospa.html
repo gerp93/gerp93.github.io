@@ -28,19 +28,17 @@
   			alert(priority);
   			
   			if (priority="High") {
-  				var list=document.getElementById("highp");
+  				var list=document.querySelector("#highp");
   			} 
   			
   			else if (priority="Medium") {
   				alert("here");
-  				var list=document.getElementById("mediump");
+  				var list=document.querySelector("#mediump");
 			}
   			
   			else {
-  				var list=document.getElementById("lowp");
+  				var list=document.querySelector("#lowp");
   			}
-  			
-  			alert(list);
  
   			list.appendChild(item);
 		}
