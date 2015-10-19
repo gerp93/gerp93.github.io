@@ -20,8 +20,8 @@
   			
   			var box=document.createElement("input");
   			box.setAttribute("type", "checkbox");
-  			box.setAttribute("onClick", "strike(this);")
-  			
+  			box.onclick=strike; 
+  	
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
   			
@@ -56,13 +56,11 @@
 			
 		}
 		
-		strike = function(self) {
+		strike = function() {
 		
 			alert("hi");
 			
-			var item=self.parentNode; 
-			item.class="done"
-	
+			var item=this.parentNode.className="done"; 
 		}
 		
 	</script>
