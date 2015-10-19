@@ -2,12 +2,18 @@
 	
 <head>
 	<title>My Tasks</title>
-	<link rel="stylesheet" type="text/css" href="todospastyle.css">
-
-
+	
 </head>
 
+
+
 <body>
+
+
+
+
+
+</style>
 	
 	<script type="text/javascript">
 		
@@ -34,22 +40,20 @@
 			list=choosepri(priority);
  
   			list.appendChild(item);
-  			
-  			alltasks.push(item);
 		}
 		
 		
 		choosepri = function(priority) {
 			if (priority=="High") {
-  				var list=document.querySelector("#highp");
+  				var list=document.querySelector(".highp");
   			} 
   			
   			else if (priority=="Medium") {
-  				var list=document.querySelector("#mediump");
+  				var list=document.querySelector(".mediump");
 			}
   			
   			else {
-  				var list=document.querySelector("#lowp");
+  				var list=document.querySelector(".lowp");
   			}
   			
   			return list;
@@ -60,7 +64,11 @@
 		
 			alert("hi");
 			
-			var item=this.parentNode.className="done"; 
+			this.parentNode.classList.add("done"); 
+
+			alert(this.className);
+			
+			alert("hi");
 		}
 		
 	</script>
@@ -70,15 +78,15 @@
 <section id=tasks>
 	
 	<section id=high>
-		<ol id=highp>
+		<ol class=highp>
 	</section>
 	
 	<section id=medium>
-		<ol id=mediump>
+		<ol class=mediump>
 	</section>
 	
 	<section id=low>
-		<ol id=lowp>
+		<ol class=lowp>
 	</section>
 	
 
@@ -94,8 +102,5 @@
         	<option>Low</option>
     	</select>
     	<button onclick="add();">Add Task</button></p>
-    </section> 
-    
-    	
-    </section>
-</body>
+
+</section>
