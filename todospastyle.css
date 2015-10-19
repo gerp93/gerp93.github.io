@@ -1,4 +1,6 @@
+	<style>
 
+		
 input, button, select, p {
 	margin: .5%;
 	padding: 0%;
@@ -41,15 +43,15 @@ ol {
 	list-style-type: none;
 }
 
-section#high {
+ol.highp {
 	color: red;
 }
 
-section#medium {
+ol.mediump {
 	color: yellow;
 }
 	
-section#low {
+ol.lowp {
 	color: white;
 }
 
@@ -58,10 +60,3 @@ ol.done {
 	text-decoration: line-through;
 	color: grey;
 }
-
-input:checked ~ li {
-	text-decoration: line-through;
-}
-
-
-
