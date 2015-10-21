@@ -23,13 +23,9 @@
 		choosepri = function(priority) {
 			if (priority=="High") {
   				var list=document.querySelector(".highp");
-  			} 
-  			
-  			else if (priority=="Medium") {
+  			} else if (priority=="Medium") {
   				var list=document.querySelector(".mediump");
-			}
-  			
-  			else {
+			} else {
   				var list=document.querySelector(".lowp");
   			}
   			
@@ -38,5 +34,13 @@
 		}
 		
 		strike = function() {
+			if (this.checked) {
 			this.parentNode.classList.add("done"); 
+		} else {
+			this.parentNode.classList.remove("done");
 		}
+		
+		undo = function() {
+			
+		}
+		
