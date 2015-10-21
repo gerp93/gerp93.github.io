@@ -43,7 +43,5 @@
 			
 			this.parentNode.classList.add("done"); 
 
-			alert(this.className);
-			
 			alert("hi");
 		}
