@@ -50,6 +50,7 @@
 			localSave("low");
 		}
 	
+	
 		window.onload = function() {
 			restoreList("highp", check)
 			restoreList("mediump", check)
