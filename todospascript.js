@@ -38,10 +38,5 @@
 		}
 		
 		strike = function() {
-		
-			alert("hi");
-			
 			this.parentNode.classList.add("done"); 
-
-			alert("hi");
 		}
