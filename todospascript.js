@@ -51,7 +51,7 @@
 		}
 	
 		window.onload = function() {
-			restoreList("highp", check
+			restoreList("highp", check)
 			restoreList("mediump", check)
 			restoreList("lowp", check)
 		}
