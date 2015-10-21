@@ -40,7 +40,9 @@
 			this.parentNode.classList.remove("done");
 		}
 		
-		undo = function() {
-			
 		}
+		
+		
+		
+	
 		
