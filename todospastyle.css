@@ -53,7 +53,7 @@ ol.lowp {
 }
 
 
-ol.done {
+li.done {
 	text-decoration: line-through;
 	color: grey;
 }
