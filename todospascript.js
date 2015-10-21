@@ -1,9 +1,15 @@
+	
+	
+	
+	
+	
+	
 	add=function() {
   			var task=document.getElementById("newtask");
   			
   			var box=document.createElement("input");
   			box.setAttribute("type", "checkbox");
-  			box.onclick=strike; 
+  			box.onclick=check; 
   	
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
@@ -33,7 +39,7 @@
 			
 		}
 		
-		strike = function() {
+		check = function() {
 			if (this.checked) {
 			this.parentNode.classList.add("done"); 
 		} else {
@@ -41,6 +47,8 @@
 		}
 		
 		}
+		
+		
 		
 		
 		
