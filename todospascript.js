@@ -42,10 +42,18 @@
 		check = function() {
 			if (this.checked) {
 			this.parentNode.classList.add("done"); 
-		} else {
-			this.parentNode.classList.remove("done");
+			} else {
+				this.parentNode.classList.remove("done");
+			}
+			localSave("highp");
+			localSave("mediump");
+			localSave("low");
 		}
-		
+	
+		window.onload = function() {
+			restoreList("highp", check
+			restoreList("mediump", check)
+			restoreList("lowp", check)
 		}
 		
 		
