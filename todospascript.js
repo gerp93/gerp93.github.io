@@ -21,8 +21,12 @@
   			var priority=document.getElementById("newpriority").value;
   			
 			list=choosepri(priority);
- 
+			
   			list.appendChild(item);
+  			
+  			localSave("highp");
+			localSave("mediump");
+			localSave("low");
 		}
 		
 		
@@ -51,11 +55,7 @@
 		}
 	
 	
-		window.onload = function() {
-			restoreList("highp", check)
-			restoreList("mediump", check)
-			restoreList("lowp", check)
-		}
+	
 		
 		
 		
