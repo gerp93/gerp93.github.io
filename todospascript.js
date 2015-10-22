@@ -1,9 +1,3 @@
-	
-	
-	
-	<script type="text/javascript" src="http://bnmnetp.github.io/CS130/listsaver.js"></script>
-	
-	
 	add=function() {
   			var task=document.getElementById("newtask");
   			
