@@ -26,7 +26,7 @@
   			
   			localSave("highp");
 			localSave("mediump");
-			localSave("low");
+			localSave("lowp");
 		}
 		
 		
@@ -51,7 +51,14 @@
 			}
 			localSave("highp");
 			localSave("mediump");
-			localSave("low");
+			localSave("lowp");
+		}
+		
+		
+		window.onload = function() {
+			restoreList("highp", check)
+			restoreList("mediump", check)
+			restoreList("lowp", check)
 		}
 	
 	
