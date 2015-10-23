@@ -14,6 +14,8 @@
   			item.setAttribute("id", tn);
   			
   			var priority=document.getElementById("newpriority").value;
+  			
+  			alert(priority); 
   		
   			item.setAttribute("id", priority);
   			
