@@ -8,20 +8,16 @@
   			var tn=document.createTextNode(task.value);
   			var item=document.createElement("li");
   			
+  			
   			item.appendChild(box);
   			item.appendChild(tn);
   			item.setAttribute("id", tn);
   			
   			var priority=document.getElementById("newpriority").value;
+  		
+  			item.setAttribute("id", priority);
   			
-			list=choosepri(priority);
-			
-  			list.appendChild(item);
-  			
-  			localSave("highp");
-			localSave("mediump");
-			localSave("lowp");
-			
+  			localSave("tasks");
 		}
 		
 		
@@ -35,7 +31,6 @@
   			}
   		
   			return list;
-			
 		}
 		
 		check = function() {
@@ -44,16 +39,12 @@
 			} else {
 				this.parentNode.classList.remove("done");
 			}
-			localSave("highp");
-			localSave("mediump");
-			localSave("lowp");
+			localSave("tasks");
 		}
 		
 		window.onload = function() {
 			
-			restoreList("highp", check);
-			restoreList("mediump", check);
-			restoreList("lowp", check);
+			restoreList("tasks", check);
 			
 		}
 	
