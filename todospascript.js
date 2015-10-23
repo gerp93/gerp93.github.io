@@ -11,14 +11,13 @@
   			
   			item.appendChild(box);
   			item.appendChild(tn);
-  			item.setAttribute("id", tn);
-  			
+  		
   			var priority=document.getElementById("newpriority").value;
-  			
+  		
+  			item.setAttribute("className", priority)	
+  		
   			alert(priority); 
   		
-  			item.setAttribute("className", priority);
-  			
   			localSave("tasks");
 		}
 		
