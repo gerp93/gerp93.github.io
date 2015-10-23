@@ -50,9 +50,14 @@
 		
 		
 		window.onload = function() {
+			
+			alert("reloading")
+			
 			restoreList("highp", check)
 			restoreList("mediump", check)
 			restoreList("lowp", check)
+			
+			alert("ok, i'm reloaded")
 		}
 	
 	
