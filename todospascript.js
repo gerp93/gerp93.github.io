@@ -19,6 +19,7 @@
   			list.appendChild(item);
   			
   			localSave("highp");
+  			alert("here");
 			localSave("mediump");
 			localSave("lowp");
 		}
