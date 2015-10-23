@@ -36,19 +36,19 @@ section#entry {
 	width: 80%;
 }
 
-ol {
+ul {
 	list-style-type: none;
 }
 
-ol#highp {
+ul#highp {
 	color: red;
 }
 
-ol#mediump {
+ul#mediump {
 	color: yellow;
 }
 	
-ol#lowp {
+ul#lowp {
 	color: white;
 }
 
