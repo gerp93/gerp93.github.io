@@ -40,15 +40,15 @@ ul {
 	list-style-type: none;
 }
 
-ul#tasks {
+li#highp {
 	color: red;
 }
 
-ul#mediump {
+li#mediump {
 	color: yellow;
 }
 	
-ul#lowp {
+li#lowp {
 	color: white;
 }
 
