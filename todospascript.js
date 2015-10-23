@@ -1,14 +1,16 @@
 	add=function() {
-  			var task=document.getElementById("newtask");
+  			var task=document.getElementById("tasks");
   			
+  			
+  			
+  			var item=document.createElement("li");
+  			
+  			task.appendChild(item);
+  			
+  			var tn=document.createTextNode(task.value);
   			var box=document.createElement("input");
   			box.setAttribute("type", "checkbox");
   			box.onclick=check; 
-  	
-  			var tn=document.createTextNode(task.value);
-  			var item=document.createElement("li");
-  			
-  			
   			item.appendChild(box);
   			item.appendChild(tn);
   		
