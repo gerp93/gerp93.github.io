@@ -14,9 +14,7 @@
   		
   			var priority=document.getElementById("newpriority").value;
   		
-  			item.setAttribute("className", priority)	
-  		
-  			alert(priority); 
+  			item.className=priority;	
   		
   			localSave("tasks");
 		}
