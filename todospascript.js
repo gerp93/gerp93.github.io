@@ -19,7 +19,6 @@
   			list.appendChild(item);
   			
   			localSave("highp");
-  			alert("here");
 			localSave("mediump");
 			localSave("lowp");
 			
@@ -34,7 +33,7 @@
 			} else {
   				var list=document.querySelector("#lowp");
   			}
-  			
+  		
   			return list;
 			
 		}
