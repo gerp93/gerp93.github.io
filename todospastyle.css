@@ -40,15 +40,15 @@ ol {
 	list-style-type: none;
 }
 
-ol.highp {
+ol#highp {
 	color: red;
 }
 
-ol.mediump {
+ol#mediump {
 	color: yellow;
 }
 	
-ol.lowp {
+ol#lowp {
 	color: white;
 }
 
