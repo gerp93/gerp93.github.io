@@ -1,12 +1,10 @@
 	add=function() {
-  			var task=document.getElementById("tasks");
-  			
-  			
-  			
+  			var list=document.getElementById("tasks");
   			var item=document.createElement("li");
+  			var task=document.getElementById("newtask");  
   			
-  			task.appendChild(item);
-  			
+  			list.appendChild(item);
+  		
   			var tn=document.createTextNode(task.value);
   			var box=document.createElement("input");
   			box.setAttribute("type", "checkbox");
