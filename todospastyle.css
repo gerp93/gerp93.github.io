@@ -40,16 +40,19 @@ ul {
 	list-style-type: none;
 }
 
-li#highp {
+li.highp {
 	color: red;
+	list-style-type: none;
 }
 
-li#mediump {
+li.mediump {
 	color: yellow;
+	list-style-type: none;
 }
 	
-li#lowp {
+li.lowp {
 	color: white;
+	list-style-type: none;
 }
 
 
