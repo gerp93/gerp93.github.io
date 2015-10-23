@@ -23,7 +23,6 @@
 			localSave("mediump");
 			localSave("lowp");
 			
-			alert(localStorage.getElementById("todoDatabase"));
 		}
 		
 		
