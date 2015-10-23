@@ -26,11 +26,11 @@
 		
 		choosepri = function(priority) {
 			if (priority=="High") {
-  				var list=document.querySelector(".highp");
+  				var list=document.querySelector("#highp");
   			} else if (priority=="Medium") {
-  				var list=document.querySelector(".mediump");
+  				var list=document.querySelector("#mediump");
 			} else {
-  				var list=document.querySelector(".lowp");
+  				var list=document.querySelector("#lowp");
   			}
   			
   			return list;
