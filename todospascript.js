@@ -17,7 +17,7 @@
   			
   			alert(priority); 
   		
-  			item.setAttribute("id", priority);
+  			item.setAttribute("className", priority);
   			
   			localSave("tasks");
 		}
